@@ -29,7 +29,7 @@ public class ParseExample {
 		boolean b = Boolean.parseBoolean(booleanLine); // parse input to boolean
 
 		System.out.println("number " + i + " squered is " + i * i);
-		System.out.println("double " + i + " rounded " + Math.round(d));
+		System.out.println("double " + d + " rounded " + Math.round(d));
 		System.out.println("boolean " + b + " inverted is " + !b);
 
 	}
