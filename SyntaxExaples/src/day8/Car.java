@@ -7,4 +7,8 @@ public class Car extends WheeledVehicle {
 		return 4;
 	}
 
+	public void printName() {
+		super.printName();
+		System.out.println("Hello, I am Car also!");
+	}
 }

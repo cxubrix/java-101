@@ -22,9 +22,9 @@ public class Rectangle {
 		this(h, w, Units.Millimeters);
 	}
 
-	public Rectangle(int h, int w, Units units) {
-		width = w;
-		height = h;
+	public Rectangle(int height, int width, Units units) {
+		this.width = width;
+		this.height = height;
 		this.units = units;
 	}
 
@@ -39,7 +39,7 @@ public class Rectangle {
 	public int perimeter() {
 		return 2 * (width + height);
 	}
-	
+
 	public Units getUnits() {
 		return units;
 	}

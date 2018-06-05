@@ -17,7 +17,7 @@ public class UnitUtils {
 		return convert(rectangle.perimeter(), rectangle.getUnits(), units);
 	}
 
-	public static int convertArear(Rectangle rectangle, Units units) {
+	public static int convertArea(Rectangle rectangle, Units units) {
 		return convert(rectangle.area(), rectangle.getUnits(), units);
 	}
 
