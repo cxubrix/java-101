@@ -22,7 +22,7 @@ public class StringOperations {
 		System.out.println(str.contains("d")); // true
 		System.out.println(str.contains("D")); // false
 		System.out.println(str.equals("ABCde")); // true
-		System.out.println(str.equals("abcde")); // flase
+		System.out.println(str.equals("abcde")); // false
 		System.out.println(str.equalsIgnoreCase("abcde")); // true
 		System.out.println(str.indexOf("C")); // 2
 		System.out.println(str.startsWith("AB")); // true
